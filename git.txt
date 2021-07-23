@@ -1,0 +1,61 @@
+What is version control system ?
+	 is a class of sytems used for managing different types of files in our project code
+What is the use ?
+google : searching 24x7 working
+	- global server:can accessible to everyone
+
+college website:server is not getting,busy server
+	- which provides the services to the end user(people)
+
+two servers:local server and global server
+	- Git (local server)
+		- in our local machine
+	- Github (remote/global server)
+		- In cloud
+
+
+
+======================
+Commands:
+	git init
+		- used initialize the local server
+	git add file name
+		- move the files from unstaging area(local machine) to staging area(local server)
+	git status 
+		- you can check the status of git
+	git add . : helps us to add all the files at once
+	- YOUR CONFIGURATION
+	git config --global user.email "your email id"
+	git config -- global user.name "name"
+	git config user.email :to check your email id
+	git config user.name:to check your name
+--- commitment:
+	 2 friends:ram & syam : help(utilize):money purchase(commitment)
+	- git commit -m "commit message"
+	- git status
+	- git log
+		 -contains the information of author, time and no.of commits along with their SHA key
+	- Secure Hash Algorithm which represents the address of our commit
+-- program: completed(in max 10 mins)
+-- project:mini projects(max 1 sem)
+-- final project:2 sems (4th year) 1 year:
+	- day by day work to be store
+===============================
+to remove the file from server
+	- git restore --staged file_name
+	- git rm --cached file_name
+	- git log --oneline
+		- short description of our log
+		- contains 7 char lenth SHA key and commit msg only
+=======================================
+one after the other:A B C
+	 A part , B  and C
+	- A :mis match of data elements:final output
+
+	- interlinked project:communication may mismatch
+	- loss of data and time consuming
+===========================
+Server is decentralized or distributed
+	- A&B&C together worked
+	- work efficiency and accuracy is more
+	
